@@ -1,5 +1,5 @@
 # Documentation TODO
-* Finish text documentation. (Luke)
+* Finish text documentation (includes an Algorithms & Standards section!). (Luke)
 * Upload alpha app to Google Play App Store. (Luke)
 * Add good, consistent screenshots into text docs. (Luke)
 * Record and edit tutorial videos for YouTube. (Brian)
