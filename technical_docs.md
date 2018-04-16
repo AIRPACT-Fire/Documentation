@@ -27,7 +27,7 @@ Capture two images at varying distances of a single Anchor Point.
 
 #### Motivation
 
-Seeing an object at two distinct distances -- ideally with a separation of at least 50 feet -- gives good insight into how the chromatic intensity of this object varies with respect to distance. This variance in contrast is directly related to the 
+Seeing an object at two distinct distances -- ideally with a separation of at least 50 feet -- gives good insight into how the chromatic intensity of this object varies with respect to distance. This variance in contrast is directly related to the Visual Range
 
 #### How It's Done
 
@@ -64,7 +64,9 @@ See source code.
 
 ## Glossary
 
-**Visual Scene**: image representation of a natural landscape, including sky, mountain ranges, trees, etc.  
-**Target**: small interface element placed on screen by user.  
-**Anchor Point**: large land mass within a Visual Scene (e.g., a mountain or a tree).  
-**Background Point**: sky or clouded backdrop from any Anchor Point.
+1. **Particulate Matter**: the term for a mixture of solid particles and liquid droplets found in the air. Some particles, such as dust, dirt, soot, or smoke, are large or dark enough to be seen with the naked eye. Others are so small they can only be detected using an electron microscope ([source](https://www.epa.gov/pm-pollution))
+2. **Visual Range**:  distance at which two objects appear indisinct; worsened by inclimate weather and presence of Particulate Matter (both PM_2.5 and PM_10) in the surrounding air.
+3. **Visual Scene**: image representation of a natural landscape, including sky, mountain ranges, trees, etc.  
+4. **Target**: small interface element placed on screen by user.  
+5. **Anchor Point**: large land mass within a Visual Scene (e.g., a mountain or a tree).  
+6. **Background Point**: sky or clouded backdrop from any Anchor Point.
