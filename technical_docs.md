@@ -55,7 +55,7 @@ Place two Targets in the same Visual Scene. One must rest on an Anchor Point, su
 #### How It's Done
 
 ```python
-def ofo(img):
+def tio(img):
 	pass
 ```
 
