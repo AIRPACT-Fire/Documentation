@@ -2,7 +2,7 @@
   <img src="https://raw.githubusercontent.com/AIRPACT-Fire/design/master/banner/v1/png/banner_small.png"/>
 </p>
 
-Fueling air-quality research with ubiquitous mobile technology. In search of understanding the patterns of [Particulate Matter (PM)](https://www.epa.gov/pm-pollution) and weather by estimating [Visual Range](https://en.wikipedia.org/wiki/Runway_visual_range). This is all within a crowd-sourced framework.
+Fueling air-quality research with ubiquitous mobile technology. In search of understanding the patterns of [Particulate Matter (PM)](https://www.epa.gov/pm-pollution) and weather by estimating [Visual Range (VR)](https://en.wikipedia.org/wiki/Runway_visual_range). This is all within a crowd-sourced framework for research.
 
 _Insert platform diagram here_
 
@@ -13,7 +13,9 @@ The AIRPACT-Fire platform uses the following (experimental) algorithms in estima
 * One For One
 * Two In One
 
-These algorithms are being experimentally validated on this site. Through this inquiry, more refined approaches are likely to surface. You will see them updated here.
+Each is designed to take an image (2-dimensional array of pixels) and output an estimate of VR (in meters or miles). The underlying assumption of the AIRPACT-Fire platform is that visual contrast is a reasonable determinant of VR, where VR is also a reasonable determinant of PM. Given these assumptions, we can estimate the air-quality of some natural space given just a picture!
+
+This is a research platform. Consequently, these algorithms are subject to adaptation given evidence, being experimentally validated on this site. We currently require expert knowledge to validate and improve our VR algorithms. Through this inquiry, more refined approaches are likely to surface. You will see them updated here.
 
 ### One For One (OFO)
 
@@ -27,7 +29,7 @@ Capture two images at varying distances of a single Anchor Point.
 
 #### Motivation
 
-Seeing an object at two distinct distances -- ideally with a separation of at least 50 feet -- gives good insight into how the chromatic intensity of this object varies with respect to distance. This variance in contrast is directly related to the Visual Range
+Seeing an object at two distinct distances -- ideally with a separation of at least 50 feet -- gives good insight into how the chromatic intensity of this object varies with respect to distance. This variance in contrast is directly related to the VR in the user's vicinity.
 
 #### How It's Done
 
@@ -64,8 +66,8 @@ See source code.
 
 ## Glossary
 
-1. **Particulate Matter**: the term for a mixture of solid particles and liquid droplets found in the air. Some particles, such as dust, dirt, soot, or smoke, are large or dark enough to be seen with the naked eye. Others are so small they can only be detected using an electron microscope ([source](https://www.epa.gov/pm-pollution))
-2. **Visual Range**:  distance at which two objects appear indisinct; worsened by inclimate weather and presence of Particulate Matter (both PM_2.5 and PM_10) in the surrounding air.
+1. **Particulate Matter (PM)**: (PM_2.5 and PM_10) the term for a mixture of solid particles and liquid droplets found in the air. Some particles, such as dust, dirt, soot, or smoke, are large or dark enough to be seen with the naked eye. Others are so small they can only be detected using an electron microscope ([source](https://www.epa.gov/pm-pollution))
+2. **Visual Range (VR)**:  measure of distance at which two objects appear indisinct; worsened by inclimate weather and presence of Particulate Matter  in the surrounding air.
 3. **Visual Scene**: image representation of a natural landscape, including sky, mountain ranges, trees, etc.  
 4. **Target**: small interface element placed on screen by user.  
 5. **Anchor Point**: large land mass within a Visual Scene (e.g., a mountain or a tree).  
