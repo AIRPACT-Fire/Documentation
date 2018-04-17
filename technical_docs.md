@@ -2,7 +2,7 @@
   <img src="https://raw.githubusercontent.com/AIRPACT-Fire/design/master/banner/v1/png/banner_small.png"/>
 </p>
 
-Empowering air-quality research through ubiquitous mobile technology: To support better understanding how estimation of visual range can contribute to useful quantificatoin of air quality, and app has been developed to assist in measuring [Visual Range (VR)] (https://en.wikipedia.org/wiki/Runway_visual_range) as a means of characterizing PM2.5 [Particulate Matter (PM)](https://www.epa.gov/pm-pollution). This is all within a crowd-sourced framework for research.
+Empowering air-quality research through ubiquitous mobile technology: To support better understanding how estimation of visual range can contribute to useful quantificatoin of air quality, and app has been developed to assist in measuring [Visual Range (VR)](https://en.wikipedia.org/wiki/Runway_visual_range) as a means of characterizing PM2.5 [Particulate Matter (PM)](https://www.epa.gov/pm-pollution). This is all within a crowd-sourced framework for research.
 
 _Insert platform diagram here_
 
