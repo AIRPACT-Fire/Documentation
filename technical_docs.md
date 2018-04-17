@@ -38,7 +38,7 @@ Both images are captured within a short period of time such that prevailing air 
 #### How It's Done
 
 ```python
-class AlgorithmTwo(models.Model):
+class ofo(models.Model):
     '''This algorithm computes the visual range for two images, one target each.'''
     
     # Foreign key reference to picture
